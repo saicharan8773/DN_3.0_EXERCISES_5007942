@@ -15,6 +15,10 @@ public class Computer {
         this.isBluetoothEnabled = builder.isBluetoothEnabled;
     }
 
+<<<<<<< HEAD
+=======
+    // Getters
+>>>>>>> a40c4ee (WEEK 1 5007942)
     public String getCPU() {
         return CPU;
     }
@@ -35,6 +39,10 @@ public class Computer {
         return isBluetoothEnabled;
     }
 
+<<<<<<< HEAD
+=======
+    // Static Builder Class
+>>>>>>> a40c4ee (WEEK 1 5007942)
     public static class Builder {
         private String CPU;
         private String RAM;

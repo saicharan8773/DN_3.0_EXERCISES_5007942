@@ -1,0 +1,777 @@
+2024-08-15 09:29:51,291 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-08-15 11:48:11,510 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-15 11:48:36,061 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-08-15 11:48:37,974 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.3.2/spring-boot-maven-plugin-3.3.2.pom
+2024-08-15 11:48:37,997 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.3.2/spring-boot-maven-plugin-3.3.2.pom
+2024-08-15 11:48:38,099 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.3.2/spring-boot-maven-plugin-3.3.2.jar
+2024-08-15 11:48:38,931 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/3.3.2/spring-boot-maven-plugin-3.3.2.jar
+2024-08-15 11:48:40,658 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem\pom.xml.
+2024-08-15 11:48:42,032 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.34/lombok-1.18.34.pom
+2024-08-15 11:48:42,037 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.34/lombok-1.18.34.pom
+2024-08-15 11:48:42,658 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar
+2024-08-15 11:49:39,070 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar
+2024-08-15 11:49:41,565 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.34/lombok-1.18.34-sources.jar
+2024-08-15 11:49:41,805 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeManagementSystem/src/main/java
+2024-08-15 11:49:41,808 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeManagementSystem/src/main/resources
+2024-08-15 11:49:41,812 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.34/lombok-1.18.34-sources.jar
+2024-08-15 11:49:41,818 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.34
+2024-08-15 11:49:41,818 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeManagementSystem/src/main/resources
+2024-08-15 11:49:42,358 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EmployeeManagementSystem/src/test/java
+2024-08-15 11:49:42,359 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EmployeeManagementSystem/src/test/resources
+2024-08-15 11:49:44,012 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 64.00 sec, update config takes 3.00 sec 
+2024-08-15 11:49:44,394 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 11:49:44,428 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 11:49:44,438 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem\src\test\resources
+2024-08-15 11:54:36,987 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 11:54:36,996 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 11:54:37,003 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem\src\test\resources
+2024-08-15 12:17:20,068 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\pom.xml.
+2024-08-15 12:17:22,946 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:17:22,958 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:17:22,962 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:17:24,235 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:17:24,238 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:17:24,245 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:29:32,912 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:29:32,945 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:29:32,948 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:30:10,234 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:30:10,352 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:30:10,357 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:36:08,037 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:36:08,047 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:36:08,055 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:36:47,520 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:36:47,782 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:36:47,787 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:36:54,561 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:36:54,804 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:36:54,806 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:36:58,240 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:36:58,297 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:36:58,300 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:39:28,638 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:39:28,641 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:39:28,644 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:39:38,396 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:39:38,398 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:39:38,403 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:39:50,587 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:39:50,588 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:39:50,591 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:40:00,230 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:40:00,231 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:40:00,233 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:41:03,613 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:41:03,866 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:41:03,869 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:41:08,302 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:41:08,406 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:41:08,410 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:41:13,065 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:41:13,107 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:41:13,111 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:41:28,483 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:41:28,536 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:41:28,540 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:42:38,766 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:42:38,771 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:42:38,773 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:43:22,975 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:43:22,977 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:43:22,981 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:44:21,238 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:44:21,239 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:44:21,241 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:45:13,921 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:45:13,922 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:45:13,925 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:46:03,882 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:46:03,884 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:46:03,886 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:46:15,652 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:46:15,654 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:46:15,657 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:46:23,992 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:46:23,993 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:46:23,996 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:46:59,999 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:47:00,000 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:47:00,003 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:47:13,926 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:47:13,928 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:47:13,933 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:48:01,966 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:48:01,972 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:48:01,974 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:48:13,142 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:48:13,149 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:48:13,154 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:48:23,874 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:48:23,882 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:48:23,886 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:48:45,672 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:48:45,676 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:48:45,678 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:48:54,034 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:48:54,039 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:48:54,042 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:49:06,435 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:49:06,440 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:49:06,442 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:50:33,786 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:50:33,787 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:50:33,790 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:50:54,158 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:50:54,159 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:50:54,161 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:51:04,096 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:51:04,100 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:51:04,102 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:51:05,772 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:51:05,780 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:51:05,783 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:51:13,978 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:51:13,980 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:51:13,982 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:53:17,737 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\pom.xml.
+2024-08-15 12:53:18,696 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:53:18,711 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:53:18,715 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:53:19,992 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:53:19,993 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:53:19,995 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:55:14,307 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\pom.xml.
+2024-08-15 12:55:14,962 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:55:14,962 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:55:14,966 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:58:17,738 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:58:17,764 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:58:17,766 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:58:23,828 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:58:23,869 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:58:23,872 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 12:59:27,376 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 12:59:27,413 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 12:59:27,416 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:00:30,413 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:00:30,418 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:00:30,420 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:00:35,492 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:00:35,498 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:00:35,500 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:00:44,612 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:00:44,618 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:00:44,620 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:01:24,339 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:01:24,345 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:01:24,349 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:01:51,513 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:01:51,520 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:01:51,523 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:02:04,896 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:02:04,901 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:02:04,904 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:02:52,483 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:02:52,486 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:02:52,488 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:03:27,467 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.9; built: 2024-05-03T13:03:17.262Z; git: efe8023327e67287f9bfd006700e6a71d45b5dd6; jvm 22.0.1+8
+2024-08-15 13:03:27,544 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@584c1b7d{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@4eda6c32{STARTED}}
+2024-08-15 13:03:27,545 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-08-15 13:03:27,585 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@576ba4b2{HTTP/1.1, (http/1.1)}{127.0.0.1:59057}
+2024-08-15 13:03:27,610 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@551cdfb9{STARTING}[12.0.9,sto=0] @4532742ms
+2024-08-15 13:03:44,298 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:03:44,305 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:03:44,402 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:03:50,584 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:03:50,699 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:03:50,702 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:04:09,840 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:04:09,845 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:04:09,848 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:04:21,135 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:04:21,139 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:04:21,141 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:04:27,183 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:04:27,284 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:04:27,286 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:04:40,894 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:04:40,919 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:04:40,921 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:05:50,235 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:05:50,239 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:05:50,241 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:07:08,113 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:07:08,120 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:07:08,124 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:07:54,026 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:07:54,030 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:07:54,032 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:08:23,749 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:08:23,754 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:08:23,759 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:12:47,605 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:12:47,613 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:12:47,620 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:16:25,865 [Worker-41: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\pom.xml.
+2024-08-15 13:16:27,148 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:16:27,163 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:16:27,169 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:16:28,485 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:16:28,488 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:16:28,492 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:17:36,285 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:17:36,351 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:17:36,353 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:18:32,514 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:18:32,518 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:18:32,520 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:22:00,209 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:22:00,311 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:22:00,314 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:23:51,776 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:23:51,868 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:23:51,870 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:23:55,350 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:23:55,362 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:23:55,365 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:24:10,578 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:24:10,584 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:24:10,586 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:25:31,105 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:25:31,109 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:25:31,111 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:25:56,058 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:25:56,081 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:25:56,083 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:27:39,098 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:27:39,225 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:27:39,227 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:29:27,179 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:29:27,200 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:29:27,202 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:29:54,034 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:29:54,069 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:29:54,078 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:30:02,944 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:30:03,468 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:30:03,481 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:33:04,449 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:33:04,454 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:33:04,456 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:33:13,743 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:33:13,815 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:33:13,817 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:35:17,383 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:35:17,388 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:35:17,390 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:35:21,812 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:35:21,849 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:35:21,854 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:36:30,184 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:36:30,191 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:36:30,193 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:37:01,917 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:37:01,921 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:37:01,922 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem2\src\test\resources
+2024-08-15 13:45:19,689 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:45:19,706 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:45:19,709 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:50:21,189 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:50:23,509 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:50:24,500 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:50:46,334 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:50:46,456 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:50:46,469 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:50:55,202 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:50:55,292 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:50:55,296 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:51:07,762 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:51:07,807 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:51:07,812 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:51:16,596 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:51:16,621 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:51:16,624 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:51:34,156 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:51:34,167 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:51:34,171 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:51:40,725 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:51:40,731 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:51:40,736 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:51:45,985 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:51:45,994 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:51:45,998 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:52:05,487 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:52:05,498 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:52:05,500 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:52:27,426 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:52:27,435 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:52:27,440 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:52:38,025 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:52:38,046 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:52:38,051 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:52:44,434 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:52:44,438 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:52:44,440 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:57:42,956 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:57:43,074 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:57:43,079 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:58:16,392 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:58:16,435 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:58:16,448 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 13:59:24,563 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 13:59:24,584 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 13:59:24,589 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 14:08:18,190 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:08:18,300 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:08:18,317 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem3\src\test\resources
+2024-08-15 14:13:20,906 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@551cdfb9{STOPPING}[12.0.9,sto=0]
+2024-08-15 14:13:21,168 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@576ba4b2{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-08-15 14:36:30,102 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-15 14:40:07,850 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\pom.xml.
+2024-08-15 14:40:10,550 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:40:10,571 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:40:10,576 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:40:11,878 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:40:11,881 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:40:11,886 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:41:54,203 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:41:54,214 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:41:54,223 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:42:02,067 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:42:02,127 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:42:02,137 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:42:25,995 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:42:26,005 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:42:26,015 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:42:30,800 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:42:30,804 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:42:30,808 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:46:02,200 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:46:02,669 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:46:02,677 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:49:42,156 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:49:42,627 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:49:42,673 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:50:22,161 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:50:22,278 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:50:22,282 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:50:51,817 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:50:51,825 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:50:51,843 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:52:50,712 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:52:50,719 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:52:50,723 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:53:13,142 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:53:13,149 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:53:13,168 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:53:17,571 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:53:17,680 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:53:17,684 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:53:32,647 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:53:32,655 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:53:32,661 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:53:36,627 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.9; built: 2024-05-03T13:03:17.262Z; git: efe8023327e67287f9bfd006700e6a71d45b5dd6; jvm 22.0.1+8
+2024-08-15 14:53:37,135 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@51fab3ac{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@63fd44b5{STARTED}}
+2024-08-15 14:53:37,151 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-08-15 14:53:37,267 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@132703b6{HTTP/1.1, (http/1.1)}{127.0.0.1:56132}
+2024-08-15 14:53:37,407 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@5e5b5267{STARTING}[12.0.9,sto=0] @1063209ms
+2024-08-15 14:53:39,207 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:53:39,218 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:53:39,223 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:53:49,517 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:53:49,525 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:53:49,532 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:53:58,514 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:53:58,522 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:53:58,527 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:54:12,603 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:54:12,759 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:54:12,764 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:55:12,373 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:55:12,380 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:55:12,387 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:55:24,286 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:55:24,292 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:55:24,297 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:56:05,471 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:56:05,480 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:56:05,485 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 14:56:09,794 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 14:56:09,802 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 14:56:09,805 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem4\src\test\resources
+2024-08-15 15:13:08,074 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\pom.xml.
+2024-08-15 15:13:14,069 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:13:14,185 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:13:14,191 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 15:13:18,197 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:13:18,200 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:13:18,203 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 15:14:12,965 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:14:13,101 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:14:13,105 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 15:14:24,682 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:14:24,950 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:14:24,954 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 15:16:00,552 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:16:00,561 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:16:00,567 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 15:16:24,014 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:16:24,018 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:16:24,020 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 15:17:31,206 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:17:31,431 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:17:31,436 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 15:45:12,186 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\pom.xml.
+2024-08-15 15:45:14,028 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:45:14,057 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:45:14,065 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 15:45:15,665 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:45:15,667 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:45:15,674 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 15:46:19,385 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:46:19,722 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:46:19,727 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 15:46:34,773 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:46:35,370 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:46:35,382 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 15:47:49,572 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:47:49,577 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:47:49,581 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 15:48:44,771 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:48:44,775 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:48:44,782 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 15:48:52,963 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:48:53,309 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:48:53,321 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 15:53:07,703 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:53:07,721 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:53:07,731 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 15:58:07,682 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:58:07,684 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:58:07,693 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 15:58:50,798 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 15:58:50,956 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 15:58:50,963 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 16:01:06,399 [Worker-36: Launching EmployeeManagementSystemApplicationTests] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.jar
+2024-08-15 16:01:06,685 [Worker-36: Launching EmployeeManagementSystemApplicationTests] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.3/junit-platform-launcher-1.10.3.jar
+2024-08-15 16:06:41,497 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:06:41,497 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:06:41,500 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem5\src\test\resources
+2024-08-15 16:10:24,065 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\pom.xml.
+2024-08-15 16:10:26,330 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:10:26,356 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:10:26,362 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 16:10:28,162 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:10:28,163 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:10:28,166 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 16:11:09,345 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:11:09,623 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:11:09,625 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 16:11:26,865 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:11:27,023 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:11:27,030 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 16:11:31,484 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:11:31,489 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:11:31,491 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 16:11:52,493 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:11:52,697 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:11:52,701 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 16:12:17,046 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:12:17,054 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:12:17,059 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 16:16:44,434 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:16:44,440 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:16:44,443 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 16:16:54,525 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:16:55,404 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:16:55,407 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 16:17:03,971 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:17:03,980 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:17:03,983 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem6\src\test\resources
+2024-08-15 16:31:52,663 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\pom.xml.
+2024-08-15 16:32:00,828 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:32:00,847 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:32:00,852 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:32:02,691 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:32:02,692 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:32:02,696 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:32:18,617 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:32:18,678 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:32:18,681 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:32:30,655 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:32:30,660 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:32:30,661 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:32:35,028 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:32:35,033 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:32:35,036 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:37:25,116 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:37:25,121 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:37:25,124 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:37:58,004 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:37:58,083 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:37:58,089 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:38:03,541 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:38:03,547 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:38:03,549 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:38:16,825 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:38:16,910 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:38:16,912 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:38:21,444 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:38:21,450 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:38:21,452 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:38:43,165 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:38:43,169 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:38:43,194 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:39:25,154 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:39:25,159 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:39:25,161 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:40:14,667 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:40:14,673 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:40:14,675 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:40:29,181 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:40:29,189 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:40:29,194 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:40:38,982 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:40:38,987 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:40:38,989 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:40:53,355 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:40:53,361 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:40:53,364 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 16:41:16,350 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 16:41:16,354 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 16:41:16,356 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem7\src\test\resources
+2024-08-15 17:02:40,812 [Worker-61: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\pom.xml.
+2024-08-15 17:03:25,534 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:03:25,606 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:03:25,660 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:03:29,843 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:03:29,845 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:03:29,850 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:04:27,797 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:04:28,072 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:04:28,075 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:04:54,973 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:04:55,227 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:04:55,229 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:05:01,998 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:05:02,361 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:05:02,366 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:05:07,398 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:05:07,402 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:05:07,404 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:05:22,232 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:05:22,238 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:05:22,240 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:05:45,602 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:05:46,597 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:05:46,600 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:05:50,722 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:05:50,727 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:05:50,730 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:06:02,588 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:06:04,534 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:06:04,538 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:07:14,550 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:07:14,664 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:07:14,667 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:07:19,501 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:07:19,504 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:07:19,506 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:07:33,081 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:07:33,220 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:07:33,224 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:07:37,990 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:07:38,262 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:07:38,267 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:07:49,857 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:07:49,864 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:07:49,866 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:08:28,360 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:08:28,366 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:08:28,369 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:08:38,768 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:08:38,774 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:08:38,776 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:09:06,481 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:09:06,487 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:09:06,490 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:09:13,451 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:09:14,031 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:09:14,033 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:09:20,712 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:09:20,713 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:09:20,715 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:09:36,268 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:09:37,369 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:09:37,393 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:09:46,637 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:09:46,741 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:09:46,745 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:10:06,325 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:10:06,325 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:10:06,327 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:15:40,853 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:15:40,859 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:15:40,862 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:15:48,989 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:15:48,996 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:15:48,998 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem8\src\test\resources
+2024-08-15 17:19:21,943 [Worker-60: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\pom.xml.
+2024-08-15 17:19:24,055 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:19:24,112 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:19:24,200 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:19:32,310 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:19:32,312 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:19:32,316 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:20:01,943 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:20:02,250 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:20:02,253 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:21:16,507 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:21:16,515 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:21:16,520 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:21:57,788 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:21:57,906 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:21:57,908 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:22:01,102 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:22:01,268 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:22:01,270 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:22:51,343 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:22:51,348 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:22:51,350 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:23:20,689 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:23:21,035 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:23:21,042 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:23:25,828 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:23:25,834 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:23:25,836 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:23:32,042 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:23:32,069 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:23:32,072 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:24:12,077 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:24:12,416 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:24:12,419 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:24:19,435 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:24:19,442 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:24:19,446 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:24:26,146 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:24:26,148 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:24:26,151 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:24:35,790 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:24:35,795 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:24:35,799 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:24:55,841 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:24:55,849 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:24:55,852 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:25:00,451 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:25:00,453 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:25:00,455 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:25:30,096 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:25:30,325 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:25:30,328 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:26:21,552 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:26:21,558 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:26:21,561 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:26:32,298 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:26:32,854 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:26:32,857 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:26:39,178 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:26:39,183 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:26:39,185 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:26:49,996 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:26:50,004 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:26:50,008 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:27:19,192 [Worker-68: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\pom.xml.
+2024-08-15 17:27:20,822 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:27:20,920 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:27:20,925 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:27:22,872 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:27:22,874 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:27:22,876 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:28:47,654 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:28:47,700 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:28:47,702 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem9\src\test\resources
+2024-08-15 17:34:01,524 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:34:01,620 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:34:01,622 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:34:22,317 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:34:22,330 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:34:22,333 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:36:10,300 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:36:10,337 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:36:10,340 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:36:51,111 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:36:51,116 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:36:51,117 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:37:10,291 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:37:10,549 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:37:10,551 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:37:23,431 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:37:23,979 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:37:23,981 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:38:29,585 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:38:29,592 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:38:29,594 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:39:17,368 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:39:17,643 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:39:17,646 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:39:21,197 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:39:21,202 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:39:21,204 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:40:32,493 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:40:32,580 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:40:32,583 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:41:55,401 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:41:55,401 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:41:55,423 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:42:05,044 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:42:05,044 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:42:05,046 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:42:29,741 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:42:29,742 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:42:29,745 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:43:15,791 [Worker-69: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.exercise1:EmployeeManagementSystem:0.0.1-SNAPSHOT @ D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\pom.xml.
+2024-08-15 17:43:19,179 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:43:19,370 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:43:19,374 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:43:20,732 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:43:20,734 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:43:20,736 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:44:33,996 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:44:34,162 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:44:34,163 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:44:52,465 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:44:52,573 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:44:52,576 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:44:56,869 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:44:56,875 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:44:56,877 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:45:54,983 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:45:54,989 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:45:54,990 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:46:11,960 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:46:12,189 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:46:12,191 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:46:16,524 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:46:16,585 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:46:16,588 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:46:30,920 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:46:31,297 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:46:31,299 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:46:40,822 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:46:40,882 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:46:40,884 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:46:58,039 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:46:58,050 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:46:58,052 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:47:09,697 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:47:09,702 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:47:09,704 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:47:19,840 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:47:19,846 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:47:19,849 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:47:24,944 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-15 17:47:24,952 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-15 17:47:24,955 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\5007942\WEEK-3\Spring Data JPA and Hibernate\EmployeeManagementSystem10\src\test\resources
+2024-08-15 17:55:44,069 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@5e5b5267{STOPPING}[12.0.9,sto=0]
+2024-08-15 17:55:44,421 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@132703b6{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
