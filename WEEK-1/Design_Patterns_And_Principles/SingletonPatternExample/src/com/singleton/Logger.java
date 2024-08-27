@@ -1,18 +1,14 @@
 package com.singleton;
 
-<<<<<<< HEAD
-public interface Logger {
-    void log(String message);
-=======
 public class Logger {
-    // Volatile keyword ensures visibility of changes to variables across threads
-    private static volatile Logger instance;
+    // Private static instance of Logger
+    private static Logger instance;
 
     // Private constructor to prevent instantiation
     private Logger() {
     }
 
-    // Public method to provide access to the single instance
+    // Public static method to get the instance of the Logger class
     public static Logger getInstance() {
         if (instance == null) {
             synchronized (Logger.class) {
@@ -24,9 +20,8 @@ public class Logger {
         return instance;
     }
 
-    // Example method to demonstrate logging functionality
+    // Method to log messages
     public void log(String message) {
         System.out.println("Log: " + message);
     }
->>>>>>> a40c4ee (WEEK 1 5007942)
 }

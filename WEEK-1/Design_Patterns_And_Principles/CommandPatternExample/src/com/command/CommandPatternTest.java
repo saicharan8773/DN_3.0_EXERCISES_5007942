@@ -2,14 +2,7 @@ package com.command;
 
 public class CommandPatternTest {
     public static void main(String[] args) {
-<<<<<<< HEAD
-        Light livingRoomLight = new Light();
-        Command lightOn = new LightOnCommand(livingRoomLight);
-        Command lightOff = new LightOffCommand(livingRoomLight);
-        RemoteControl remote = new RemoteControl();
-        remote.setCommand(lightOn);
-        remote.pressButton();
-=======
+
         // Create the receiver
         Light livingRoomLight = new Light();
 
@@ -24,8 +17,7 @@ public class CommandPatternTest {
         remote.setCommand(lightOn);
         remote.pressButton();
 
-        // Turn off the light
->>>>>>> a40c4ee (WEEK 1 5007942)
+        // Turn off the lights
         remote.setCommand(lightOff);
         remote.pressButton();
     }

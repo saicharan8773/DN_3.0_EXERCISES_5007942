@@ -6,21 +6,18 @@ public class AdapterPatternTest {
         PayPalPaymentGateway payPalGateway = new PayPalPaymentGateway();
         StripePaymentGateway stripeGateway = new StripePaymentGateway();
         SquarePaymentGateway squareGateway = new SquarePaymentGateway();
-<<<<<<< HEAD
         PaymentProcessor payPalAdapter = new PayPalAdapter(payPalGateway);
         PaymentProcessor stripeAdapter = new StripeAdapter(stripeGateway);
         PaymentProcessor squareAdapter = new SquareAdapter(squareGateway);
-=======
 
         // Create adapters for the payment gateways
-        PaymentProcessor payPalAdapter = new PayPalAdapter(payPalGateway);
-        PaymentProcessor stripeAdapter = new StripeAdapter(stripeGateway);
-        PaymentProcessor squareAdapter = new SquareAdapter(squareGateway);
+        PaymentProcessor payPalAdapter1 = new PayPalAdapter(payPalGateway);
+        PaymentProcessor stripeAdapter1 = new StripeAdapter(stripeGateway);
+        PaymentProcessor squareAdapter1 = new SquareAdapter(squareGateway);
 
         // Process payments using the adapters
->>>>>>> a40c4ee (WEEK 1 5007942)
-        payPalAdapter.processPayment(100.0);
-        stripeAdapter.processPayment(150.0);
-        squareAdapter.processPayment(200.0);
+        payPalAdapter1.processPayment(100.0);
+        stripeAdapter1.processPayment(150.0);
+        squareAdapter1.processPayment(200.0);
     }
 }
